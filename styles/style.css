@@ -1,0 +1,141 @@
+body {
+    background: url("../imagens/racoon-city-night.png");
+}
+
+body {
+    height: 100vh;
+    background-color: black;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+.change-dark-theme {
+    width: 50px;
+    margin-left: 200px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+
+
+.personagens-png {
+    width: 250px;
+    margin-top: 10px;
+    margin-left: 10px;
+    cursor: default;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+
+.logo {
+    width: 350px;
+    margin-left: 400px;
+}
+
+.maim figure.figura {
+    border: solid;
+    border-color: rgb(54, 18, 78);
+    border-radius: 5px;
+    margin-left: 20px;
+    height: 414px;
+    width: 241px;
+    background-image: url(../imagens/./fundo-personagem.png);
+}
+
+.maim figure.figura {
+    position: absolute;
+}
+
+.maim figure.figura-2 {
+    border: solid;
+    border-color: rgb(54, 18, 78);
+    border-radius: 5px;
+    margin-left: 300px;
+    height: 414px;
+    width: 251px;
+    background-image: url(../imagens/fundo-personagem-2.png);
+}
+
+.maim figure.figura-2 {
+    position: absolute;
+}
+
+.png {
+    margin-left: 20px;
+    height: 300px;
+}
+
+.png-2 {
+    margin-top: 100px;
+    margin-left: 75px;
+    height: 225px;
+}
+
+main .personagem:hover {
+    width: 50px;
+    cursor: pointer;
+    transform: scale(1.10);
+    transition: 0.2s ease-in-out;
+
+    .figura {
+        box-shadow: 0 0 15px rgb(255, 255, 255);
+    }
+
+    .figura-2 {
+        box-shadow: 0 0 15px rgb(255, 255, 255);
+    }
+
+    .paragrafo {
+        margin-top: 20px;
+        font: normal 15pt Arial;
+        text-shadow: 2px 2px 5px rgb(54, 18, 78);
+        transition: 0.2s ease-in-out;
+        margin-top: 45px;
+        margin-left: 45px;
+        width: 200px;
+        border-radius: 5px;
+        color: rgb(255, 255, 255);
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+
+    .paragrafo-2 {
+        font: normal 15pt Arial;
+        text-shadow: 2px 2px 5px rgb(54, 18, 78);
+        transition: 0.2s ease-in-out;
+        margin-top: 25px;
+        margin-left: 70px;
+        width: 155px;
+        border-radius: 5px;
+        color: rgb(255, 255, 255);
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+}
+
+p {
+    margin-left: 40px;
+    width: 115px;
+    border-radius: 5px;
+    color: rgba(211, 211, 211, 0);
+}
+
+
+#youtube {
+    height: 50px;
+    width: 50px;
+    margin-top: auto;
+    margin-left: auto;
+    cursor: pointer;
+    position: absolute;
+    bottom: 1px;
+}
+
+#github {
+    height: 45px;
+    width: 45px;
+    margin-top: auto;
+    margin-left: auto;
+    position: absolute;
+    bottom: 5px;
+    top: 40px;
+    left: 70px;
+}
